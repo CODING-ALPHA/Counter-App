@@ -2,6 +2,8 @@
 
 - This Counter App is a simple project that I built using HTML, CSS, and JavaScript. It allows users to increment or decrement a number by clicking either the "+" or "-" buttons and reset the counter back to default using the "Reset" button.
 
+## Live link: https://counter-app-one-theta.vercel.app/
+
 ## Features
 
 - Increment and Decrement: Click the “+” button to increase the number by 1 and the “-” button to decrease it.
