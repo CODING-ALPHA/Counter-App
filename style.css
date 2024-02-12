@@ -13,6 +13,8 @@ body {
   background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
   background-position: center;
   height: 100vh;
+  font-family: "Lato", sans-serif;
+  /* font-family: "Sixtyfour", sans-serif; */
   text-align: center;
 }
 main {
@@ -38,9 +40,9 @@ main {
 h1 {
   color: #fff;
   padding: 2rem;
-  font-family: "Sixtyfour", sans-serif;
   font-size: 3rem;
   line-height: 2.5rem;
+  font-weight: bolder;
 }
 button {
   border: none;
@@ -88,17 +90,30 @@ button {
   font-size: 1.3rem;
   border-radius: 10px;
   padding: 1rem 3rem;
-  /* transform: scaleX(1); */
-  transition: all 0.1s;
+  transition: all 0.2s;
   box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
   cursor: pointer;
 }
 .reset_container button:hover,
 .reset_container button:active {
-  background-image: linear-gradient(to top left, #bf2e34 0%, #753682 100%);
+  opacity: 0.8;
   transform: scaleX(1.03);
   color: #fff;
 }
+
+/* FOOTER */
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  /* background-color: #eee; */
+  color: #fff;
+  padding: 0.6rem 0;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
 /* MEDIA QUERIES: Code for responsiveness for all screen sizes */
 @media only screen and (max-width: 768px) {
   h1 {
